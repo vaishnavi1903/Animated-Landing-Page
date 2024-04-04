@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Dosis",sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(53,82,66,.5),rgba(47,80,63,.6)),url(images/bg.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.banner{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.banner h1{
+    font-size: 80px;
+    color: #ddd;
+    font-weight:300;
+    margin-bottom: 30px;
+}
+
+.banner span{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+}
+
+.banner p{
+    font-size: 50px;
+    font-weight: 300;
+    color: #eee;
+    margin-bottom: 20px;
+}
+
+.banner button{
+    width: 180 px;
+    padding: 12px;
+    margin: 20px;
+    border: 2px solid #eee;
+    border-radius: 50px;
+    font-size: 18px;
+    outline: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
